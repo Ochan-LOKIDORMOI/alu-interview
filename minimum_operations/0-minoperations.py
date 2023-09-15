@@ -2,6 +2,8 @@
 """
 Minimum operations
 """
+
+
 def minOperations(n):
     """
     Returns the operations
