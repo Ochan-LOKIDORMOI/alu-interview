@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 """
-Minimum operations
+minimum operations
 """
 
 
 def minOperations(n):
     """
-    Returns the operations
+    returns the operational values
     """
-     a = 0
+    a = 0
     b = 2
     while n > 1:
         while n % b == 0:
@@ -16,4 +16,3 @@ def minOperations(n):
             n = n / b
         b += 1
     return a
-#Written codes for the operation
