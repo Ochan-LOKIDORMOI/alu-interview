@@ -1,13 +1,9 @@
 #!/usr/bin/python3
-"""
-create an algorithm for calculating the rain
-"""
+"""create an algorithm for calculating the rain"""
 
 
 def rain(walls):
-    """
-    Calculate how much water will be retained after it rains.
-    """
+    """Calculate how much water will be retained after it rains."""
     if not walls or len(walls) < 3:
         return 0
 
@@ -22,4 +18,3 @@ def rain(walls):
         water += min(left, right) - walls[i]
 
     return water
-  
