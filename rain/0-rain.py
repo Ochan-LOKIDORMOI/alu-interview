@@ -1,24 +1,21 @@
 #!/usr/bin/python3
-"""
-Module to calculate amount of water retained after rain on walls.
+"""Module to calculate amount of water retained after rain on walls.
+
+This module contains one function:
 
 rain(walls)
   - Calculate total amount of water retained given heights of walls
-  - walls is a list of non-negative integers representing wall heights
-  - Returns an integer
-  """
+  - walls is a list of non-negative integers representing wall heights"""
 
 
 def rain(walls):
-    """
-  Calculate total amount of water retained.  
+    """Calculate total amount of water retained.  
 
   Args:
     walls (list): List of non-negative integers representing wall heights
 
   Returns:
-    int: Total amount of water retained
-  """
+    int: Total amount of water retained"""
     if not walls or len(walls) < 3:
         return 0
 
