@@ -18,7 +18,6 @@ def rain(walls):
 
   Returns:
     int: Total amount of water retained
-
   """
     if not walls or len(walls) < 3:
         return 0
